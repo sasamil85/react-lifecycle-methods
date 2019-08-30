@@ -12,7 +12,6 @@ class Counter extends React.Component {
     }
 
     componentDidUpdate() {
-        console.log(this.props.count);
         console.log('[Counter component] - componentDidUpdate!');
     }
 
